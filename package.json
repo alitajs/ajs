@@ -1,7 +1,7 @@
 {
   "name": "@alitajs/ajs",
   "version": "0.0.1",
-  "description": "可视化方案，页面最小粒子的  JSON Schema",
+  "description": "低代码平台，页面最小粒子的  JSON Schema",
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "scripts": {
