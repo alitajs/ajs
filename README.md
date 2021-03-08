@@ -22,6 +22,15 @@
     "name": "onClick",
     "value": "()=>{}"
   }],
-  "childrens": []
+  "children": []
 }]
+```
+
+项目中使用 validator 做校验
+
+```tsx
+import { validator } from '@alitajs/ajs';
+
+console.log(validator(data));
+// true || false
 ```

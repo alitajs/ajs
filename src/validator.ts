@@ -39,7 +39,7 @@ const schema: JSONSchemaType<ComponentSchema[]> = {
         nullable: true
       },
       className: { type: "string", nullable: true },
-      childrens: { $ref: "#/definitions/" },
+      children: { $ref: "#/definitions/" },
       style: { type: "object", nullable: true }
     },
     required: ["name", "package"],

@@ -41,7 +41,7 @@ export interface ComponentSchema {
   style?:any;
   className?: ClassNameSchema;
   actions?: ActionsSchema[];
-  childrens?: ComponentSchema[];
+  children?: ComponentSchema[];
   /**
    * 显示条件
    */
