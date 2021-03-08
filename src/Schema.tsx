@@ -1,7 +1,7 @@
 // https://github.com/baidu/amis src/Schema.ts
 export interface PropsSchema {
   name: string;
-  isOptional?: boolean;
+  required?: boolean;
   value?: string;
 }
 export interface ActionsSchema {
@@ -38,12 +38,6 @@ export interface ComponentSchema {
   props?: PropsSchema[];
   description?: string;
   uuid?: string;
-  style?:any;
-  className?: ClassNameSchema;
-  actions?: ActionsSchema[];
   children?: ComponentSchema[];
-  /**
-   * 显示条件
-   */
   visibleOn?: ExpressionSchema;
 }

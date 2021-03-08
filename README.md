@@ -9,19 +9,21 @@
   "name": "Button",
   "package": "antd-mobile",
   "props": [{
-    "name": "A",
-    "isOptional": true,
-    "value": "2"
+    "name": "style",
+    "required": false,
+    "value": "{}"
+  }, {
+    "name": "className",
+    "required": false,
+    "value": "btn"
+  }, {
+    "name": "onClick",
+    "required": false,
+    "value": "()=>{}"
   }],
   "description": "按钮",
   "description.en": "Button",
   "uuid": "23",
-  "style": {},
-  "className": "btn",
-  "actions": [{
-    "name": "onClick",
-    "value": "()=>{}"
-  }],
   "children": []
 }]
 ```
